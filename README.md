@@ -1,16 +1,12 @@
-<p align="center">
-  <img src="assets/banner.jpg" width="700">
-</p>
-
-<h1 align="center">🏴‍☠️ Luffy Bot</h1>
-
-<p align="center">
-  🍖 Eu vou ser o Rei dos Piratas!
-</p>
-
 🏴‍☠️ Luffy Bot
 
-«🍖 Um bot para WhatsApp inspirado no universo de One Piece.»
+<p align="center">
+  <img src="assets/banner.jpg" width="700">
+</p><p align="center">
+  🍖 <strong>Eu vou ser o Rei dos Piratas!</strong>
+</p><p align="center">
+  Bot para WhatsApp inspirado no universo de One Piece.
+</p>---
 
 ⚓ Sobre
 
@@ -58,6 +54,7 @@ Luffy-bot/
 │   └── zoeira/
 ├── database/
 ├── imagens/
+├── assets/
 ├── config.js
 ├── dono.js
 ├── index.js
@@ -90,12 +87,13 @@ Categoria| Função
 
 Arquivos de sessão e dependências locais não devem ser enviados para o GitHub.
 
-O projeto utiliza ".gitignore" para evitar o envio de:
+O ".gitignore" impede o envio de:
 
 node_modules/
 session/
 *.mp3
 .env
+.env.*
 
 👑 Créditos
 
