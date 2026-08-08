@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="assets/banner.jpg" width="700">
+</p>
+
+<h1 align="center">🏴‍☠️ Luffy Bot</h1>
+
+<p align="center">
+  🍖 Eu vou ser o Rei dos Piratas!
+</p>
+
 🏴‍☠️ Luffy Bot
 
 «🍖 Um bot para WhatsApp inspirado no universo de One Piece.»
