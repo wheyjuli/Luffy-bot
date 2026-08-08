@@ -1,0 +1,88 @@
+module.exports = {
+nome:"ppt",
+comando:"ppt",
+
+executar: async(sock,msg)=>{
+
+
+let texto = msg.message?.conversation ||
+msg.message?.extendedTextMessage?.text ||
+"";
+
+
+let escolha = texto.replace("!ppt","").trim().toLowerCase();
+
+
+let id = msg.key.remoteJid;
+
+
+let opcoes = [
+"pedra",
+"papel",
+"tesoura"
+];
+
+
+if(!opcoes.includes(escolha)){
+
+
+return sock.sendMessage(id,{
+text:`✊ *PEDRA PAPEL TESOURA* 🏴‍☠️
+
+Escolha uma opção:
+
+!ppt pedra
+!ppt papel
+!ppt tesoura`
+});
+
+
+}
+
+
+let luffy = opcoes[Math.floor(Math.random()*opcoes.length)];
+
+
+let resultado="";
+
+
+if(escolha === luffy){
+
+resultado="🤝 Empate!";
+
+}
+
+else if(
+(escolha==="pedra" && luffy==="tesoura") ||
+(escolha==="papel" && luffy==="pedra") ||
+(escolha==="tesoura" && luffy==="papel")
+){
+
+resultado="🏆 Você venceu!";
+
+}
+
+else{
+
+resultado="☠️ Luffy venceu!";
+
+}
+
+
+
+await sock.sendMessage(id,{
+text:`✊ *PEDRA PAPEL TESOURA* 🏴‍☠️
+
+👤 Você: ${escolha}
+
+🤖 Luffy: ${luffy}
+
+${resultado}
+
+🍖 Boa batalha, pirata!`
+});
+
+
+}
+
+};

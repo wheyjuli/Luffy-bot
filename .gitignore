@@ -1,0 +1,7 @@
+node_modules/
+session/
+*.log
+.env
+.env.*
+npm-debug.log*
+*.mp3
