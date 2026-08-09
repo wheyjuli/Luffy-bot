@@ -1,111 +1,59 @@
-🏴‍☠️ Luffy Bot
+<!--
+╔══════════════════════════════════════════════════════════════╗
+║                    WHEYJULI • GITHUB                       ║
+╚══════════════════════════════════════════════════════════════╝
+-->
 
-<p align="center">
-  <img src="assets/banner.jpg" width="700">
-</p><p align="center">
-  🍖 <strong>Eu vou ser o Rei dos Piratas!</strong>
-</p><p align="center">
-  Bot para WhatsApp inspirado no universo de One Piece.
-</p>---
+<div align="center">
 
-⚓ Sobre
+# 🏴‍☠️ WHEYJULI
 
-O Luffy Bot é um bot para WhatsApp desenvolvido em Node.js, com diversos comandos de diversão, jogos, economia, grupos, downloads e ferramentas.
+### 🍖 Desenvolvedora • Criadora • Bot Maker • Entusiasta de Tecnologia
 
-🏴‍☠️ Características
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:7b2cff&height=180&section=header&text=WHEYJULI&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Construindo%20projetos%20e%20criando%20minha%20pr%C3%B3pria%20hist%C3%B3ria&descAlignY=58&descSize=18"/>
 
-- 🍖 Menu personalizado
-- 🎮 Jogos
-- 💰 Sistema de economia
-- 😂 Comandos de zoeira
-- 👥 Ferramentas para grupos
-- 🎵 Downloads de mídia
-- 🖼️ Figurinhas e imagens
-- ⚙️ Comandos de sistema
-- 🏴‍☠️ Tema inspirado em One Piece
+<br>
 
-📦 Instalação
+[![GitHub](https://img.shields.io/badge/GitHub-wheyjuli-181717?style=for-the-badge&logo=github)](https://github.com/wheyjuli)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Node.js](https://img.shields.io/badge/Node.js-24.x-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Bots-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://www.whatsapp.com/)
 
-1. Clonar o projeto
+</div>
 
-git clone https://github.com/wheyjuli/Luffy-bot.git
-cd Luffy-bot
+---
 
-2. Instalar dependências
+# 👋 Olá, eu sou a Maju!
 
-npm install
+Sou apaixonada por tecnologia, programação e criação de projetos.
 
-3. Iniciar o bot
+Gosto de transformar ideias em sistemas reais, principalmente projetos para Android, bots para WhatsApp e ferramentas desenvolvidas diretamente pelo celular.
 
-sh start.sh
+Atualmente estou trabalhando em projetos como:
 
-📁 Estrutura
+- 🏴‍☠️ **Luffy Bot**
+- 📱 Projetos Android
+- 🤖 Bots para WhatsApp
+- 🎮 Sistemas e jogos
+- ⚙️ Ferramentas para Termux
+- 💻 Projetos experimentais
 
-Luffy-bot/
-├── comandos/
-│   ├── akuma/
-│   ├── dono/
-│   ├── downloads/
-│   ├── economia/
-│   ├── geral/
-│   ├── grupo/
-│   ├── jogos/
-│   ├── menu/
-│   └── zoeira/
-├── database/
-├── imagens/
-├── assets/
-├── config.js
-├── dono.js
-├── index.js
-├── menu.js
-├── package.json
-└── start.sh
+> 💡 **Minha filosofia:** aprender criando.
 
-🧭 Categorias de comandos
+---
 
-Categoria| Função
-🍎 Akuma| Imagens, stickers e efeitos
-👑 Dono| Administração do bot
-🎵 Downloads| Música e mídia
-💰 Economia| Dinheiro, loja e ranking
-⚓ Geral| Informações e utilidades
-👥 Grupo| Administração de grupos
-🎮 Jogos| Jogos e brincadeiras
-🏴‍☠️ Menu| Menu principal
-😂 Zoeira| Diversão
+# 🚀 Sobre mim
 
-⚙️ Tecnologias
-
-- Node.js
-- Baileys
-- npm
-- Termux
-- WhatsApp
-
-🔒 Segurança
-
-Arquivos de sessão e dependências locais não devem ser enviados para o GitHub.
-
-O ".gitignore" impede o envio de:
-
-node_modules/
-session/
-*.mp3
-.env
-.env.*
-
-👑 Créditos
-
-Luffy Bot
-
-🏴‍☠️ Projeto desenvolvido para uso e aprendizado.
-
-«🍖 Eu vou ser o Rei dos Piratas!»
-
-⭐ Apoie o projeto
-
-Se você gostou do projeto, deixe uma ⭐ no repositório!
-
-Repositório:
-https://github.com/wheyjuli/Luffy-bot
+```text
+╭──────────────────────────────────────────────╮
+│                  👩‍💻 WHEYJULI               │
+├──────────────────────────────────────────────┤
+│                                              │
+│  🧠 Foco        → Programação                │
+│  🤖 Projetos    → Bots & Automação           │
+│  📱 Plataforma  → Android / Termux           │
+│  🌐 Linguagem   → JavaScript                 │
+│  ⚙️ Runtime     → Node.js                     │
+│  🏴‍☠️ Projeto    → Luffy Bot                  │
+│                                              │
+╰──────────────────────────────────────────────╯
