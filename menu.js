@@ -58,6 +58,7 @@ const menu = `
 ┃🎰 !cassino
 ┃🃏 !uno
 ┃❌⭕ !velha
+┃🎭 !eununca
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
 ╭━━〔🎵 BAÚ DOS TESOUROS〕━━⬣
