@@ -1,59 +1,268 @@
-<!--
-╔══════════════════════════════════════════════════════════════╗
-║                    WHEYJULI • GITHUB                       ║
-╚══════════════════════════════════════════════════════════════╝
--->
+🏴‍☠️ Luffy Bot
 
-<div align="center">
+<p align="center">
+  <img src="assets/banner.jpg" width="700">
+</p><p align="center">
+  🍖 <strong>Eu vou ser o Rei dos Piratas!</strong>
+</p><p align="center">
+  Um bot completo para WhatsApp inspirado no universo de One Piece.
+</p>---
 
-# 🏴‍☠️ WHEYJULI
+⚓ Sobre o projeto
 
-### 🍖 Desenvolvedora • Criadora • Bot Maker • Entusiasta de Tecnologia
+O Luffy Bot é um bot para WhatsApp desenvolvido em Node.js, criado para oferecer diversão, jogos, economia, ferramentas para grupos, downloads e vários comandos personalizados.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:7b2cff&height=180&section=header&text=WHEYJULI&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Construindo%20projetos%20e%20criando%20minha%20pr%C3%B3pria%20hist%C3%B3ria&descAlignY=58&descSize=18"/>
-
-<br>
-
-[![GitHub](https://img.shields.io/badge/GitHub-wheyjuli-181717?style=for-the-badge&logo=github)](https://github.com/wheyjuli)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Node.js](https://img.shields.io/badge/Node.js-24.x-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Bots-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://www.whatsapp.com/)
-
-</div>
+«🏴‍☠️ Transforme seu WhatsApp em uma verdadeira aventura pela Grand Line!»
 
 ---
 
-# 👋 Olá, eu sou a Maju!
+✨ Recursos
 
-Sou apaixonada por tecnologia, programação e criação de projetos.
-
-Gosto de transformar ideias em sistemas reais, principalmente projetos para Android, bots para WhatsApp e ferramentas desenvolvidas diretamente pelo celular.
-
-Atualmente estou trabalhando em projetos como:
-
-- 🏴‍☠️ **Luffy Bot**
-- 📱 Projetos Android
-- 🤖 Bots para WhatsApp
-- 🎮 Sistemas e jogos
-- ⚙️ Ferramentas para Termux
-- 💻 Projetos experimentais
-
-> 💡 **Minha filosofia:** aprender criando.
+- 🏴‍☠️ Menu personalizado
+- 🎮 Jogos e desafios
+- 💰 Sistema de economia
+- 🏆 Ranking de piratas
+- 🎁 Recompensa diária
+- 😂 Comandos de zoeira
+- 👥 Ferramentas para grupos
+- 🎵 Comandos de música
+- 🖼️ Imagens e figurinhas
+- ⚙️ Ferramentas do sistema
+- 👤 Perfil dos usuários
+- 🍎 Sistema inspirado em One Piece
 
 ---
 
-# 🚀 Sobre mim
+📥 Instalação
 
-```text
-╭──────────────────────────────────────────────╮
-│                  👩‍💻 WHEYJULI               │
-├──────────────────────────────────────────────┤
-│                                              │
-│  🧠 Foco        → Programação                │
-│  🤖 Projetos    → Bots & Automação           │
-│  📱 Plataforma  → Android / Termux           │
-│  🌐 Linguagem   → JavaScript                 │
-│  ⚙️ Runtime     → Node.js                     │
-│  🏴‍☠️ Projeto    → Luffy Bot                  │
-│                                              │
-╰──────────────────────────────────────────────╯
+📱 Termux — Android
+
+1. Instale o Termux
+
+Instale o Termux em seu dispositivo Android e abra o aplicativo.
+
+2. Atualize os pacotes
+
+pkg update && pkg upgrade -y
+
+3. Instale Git e Node.js
+
+pkg install git nodejs -y
+
+4. Clone o Luffy Bot
+
+git clone https://github.com/wheyjuli/Luffy-bot.git
+
+5. Entre na pasta
+
+cd Luffy-bot
+
+6. Instale as dependências
+
+npm install
+
+7. Inicie o bot
+
+sh start.sh
+
+---
+
+🔑 Conectando o WhatsApp
+
+Ao iniciar o bot, será solicitado o pareamento com o WhatsApp.
+
+No WhatsApp:
+
+Configurações → Dispositivos conectados → Conectar dispositivo
+
+Depois siga o método de pareamento configurado pelo projeto.
+
+«⚠️ Nunca compartilhe seu código de pareamento ou arquivos da pasta "session".»
+
+---
+
+🚀 Atualizando o bot
+
+Se você já possui o Luffy Bot instalado e quer baixar as alterações mais recentes:
+
+cd ~/luffy-bot
+git pull
+npm install
+sh start.sh
+
+---
+
+📁 Estrutura do projeto
+
+Luffy-bot/
+│
+├── comandos/
+│   ├── akuma/
+│   ├── dono/
+│   ├── downloads/
+│   ├── economia/
+│   ├── geral/
+│   ├── grupo/
+│   ├── jogos/
+│   ├── menu/
+│   └── zoeira/
+│
+├── database/
+├── imagens/
+├── assets/
+│
+├── config.js
+├── index.js
+├── menu.js
+├── package.json
+├── package-lock.json
+└── start.sh
+
+---
+
+🧭 Categorias
+
+Categoria| Função
+🍎 Akuma| Imagens, stickers e efeitos
+👑 Dono| Administração do bot
+🎵 Downloads| Música e mídia
+💰 Economia| Dinheiro, daily e ranking
+⚓ Geral| Informações e utilidades
+👥 Grupo| Ferramentas para grupos
+🎮 Jogos| Jogos e desafios
+🏴‍☠️ Menu| Menu principal
+😂 Zoeira| Diversão
+
+---
+
+🛠️ Tecnologias
+
+- 🟢 Node.js
+- 📦 npm
+- 💬 Baileys
+- 📱 WhatsApp
+- 📲 Termux
+- 🐙 Git / GitHub
+
+---
+
+🔒 Segurança
+
+Nunca envie para o GitHub:
+
+node_modules/
+session/
+.env
+.env.*
+*.mp3
+
+A pasta "session" contém informações da sessão do WhatsApp e deve permanecer privada.
+
+---
+
+🏴‍☠️ Comandos
+
+O bot possui comandos organizados por categorias.
+
+Exemplos:
+
+!menu
+!perfil
+!saldo
+!daily
+!trabalhar
+!ranking
+!forca
+!quiz
+!adivinhar
+!velha
+
+Para ver todos os comandos disponíveis:
+
+!menu
+
+---
+
+👤 Perfil
+
+O comando:
+
+!perfil
+
+mostra informações do pirata, como:
+
+- 👤 Nome
+- 📱 Número
+- 💬 Atividade
+- 🎮 Estatísticas
+- 📝 Personalidade
+- 🤖 Informações do bot
+
+---
+
+💰 Sistema de economia
+
+Comandos principais:
+
+!saldo
+!daily
+!trabalhar
+!ranking
+
+Os piratas podem acumular berries, trabalhar e disputar posições no ranking.
+
+---
+
+🎮 Jogos
+
+O Luffy Bot possui diversos jogos e brincadeiras.
+
+Exemplos:
+
+!forca
+!quiz
+!adivinhar
+!velha
+!uno
+!eununca
+
+---
+
+🤝 Contribuição
+
+Quer ajudar a melhorar o projeto?
+
+1. Faça um fork do repositório.
+2. Crie suas alterações.
+3. Teste os comandos.
+4. Envie suas alterações para análise.
+
+Sugestões e melhorias são bem-vindas.
+
+---
+
+⚠️ Aviso
+
+Este projeto foi criado para aprendizado, testes e entretenimento.
+
+O uso do bot é de responsabilidade de quem o instala e utiliza.
+
+---
+
+👑 Créditos
+
+Luffy Bot
+
+🍖 Criadora: Maju
+
+🏴‍☠️ Tema: One Piece
+
+«"No mar, cada pirata escreve sua própria história."»
+
+---
+
+<p align="center">
+  🍖 <strong>Eu vou ser o Rei dos Piratas!</strong> 🏴‍☠️
+</p><p align="center">
+  ⭐ Se o projeto foi útil para você, deixe uma estrela no repositório!
+</p>
